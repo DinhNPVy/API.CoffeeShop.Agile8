@@ -1,19 +1,18 @@
-# 🔥 Hướng dẫn cài đặt Api.CoffeeShop-Blue 🔥
+# 🔥 Hướng dẫn cài đặt API.CoffeeShop.Agile8 🔥
 
 ## 👌Prerequisites 
 
 - [Cài đặt XAMPP](https://www.apachefriends.org/download.html).
 - [Cài đặt Composer](https://getcomposer.org/).
 
-## 💪Cài đặt Api.CoffeeShop-Blue 
+## 💪Cài đặt API.CoffeeShop.Agile8  
 
 - Mở XAMP Control panel và start [apache] và [mysql].
 - Tạo cơ sở dữ liệu trên MySQL.
 - Tải project hoặc clone project về máy.
-- Mở folder Api.CoffeeShop-Blue trên IDE.
-- Đổi tên file “.env.example” thành “.env”.
+- Mở folder API.CoffeeShop.Agile8 trên IDE.
 - Điền thông tin biến ``DB_DATABASE`` bằng tên cơ sở dữ liệu vừa mới tạo và thông tin ``DB_USERNAME``, ``DB_PASSWORD`` nếu có. 
-- Đặt ``COFFEE_IMAGE_PATH`` là đường dẫn đến folder ``public\images\coffees\`` thuộc folder CoffeeShop-Blue.
+- Đặt ``COFFEE_IMAGE_PATH`` là đường dẫn đến folder ``public\images\coffees\`` thuộc folder XDW2
 - Mở terminal và cd đến folder Api.CoffeeShop-Blue.
 - Trên terminal gõ lệnh:
     + php artisan key:generate
